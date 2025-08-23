@@ -26,7 +26,7 @@ java -jar target/quarkus-app/quarkus-run.jar
 ### En Docker
 
 ```sh
-docker run -e EXTERNAL_API_MP_REST_URL="https://midominio/api" -i --rm -p 8080:8080 quarkus/efac-rest-microservice-jvm
+docker run -e EXTERNAL_API_MP_REST_URL="https://midominio/api" -i --rm -p 8080:8080 quarkus/external-rest-microservice-jvm
 ```
 
 ---
@@ -99,7 +99,7 @@ export EXTERNAL_API_MP_REST_URL="https://midominio/api"
 
 #### Ejemplo en Docker
 ```sh
-docker run -e EXTERNAL_API_MP_REST_URL="https://midominio/api" -i --rm -p 8080:8080 quarkus/efac-rest-microservice-jvm
+docker run -e EXTERNAL_API_MP_REST_URL="https://midominio/api" -i --rm -p 8080:8080 quarkus/external-rest-microservice-jvm
 ```
 
 #### Ejemplo en ejecución directa del JAR
