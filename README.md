@@ -46,7 +46,7 @@ La documentación interactiva de la API está disponible en:
 
 - Swagger UI: http://localhost:8080/swagger-ui
 
-# efac-rest-microservice
+# external-rest-microservice
 
 Microservicio reactivo y escalable construido con Quarkus 3, pensado como un proxy adaptable para el consumo de cualquier servicio REST externo. Permite exponer endpoints propios que delegan la consulta a APIs externas, desacoplando la lógica de integración y facilitando la reutilización, escalabilidad y observabilidad.
 
