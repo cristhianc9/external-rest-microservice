@@ -20,9 +20,9 @@ public class ConsultaResource {
     ExternalApiClient externalApiClient;
 
     @GET
-    @Path("/{claveAcceso}")
+    @Path("/{clave}")
     @Produces("application/json;charset=utf-8")
-    public Uni<Response> consultar(@PathParam("claveAcceso") String claveAcceso) {
-        return externalApiClient.consultarPorClave(claveAcceso);
+    public Uni<Response> consultar(@PathParam("clave") String clave) {
+        return externalApiClient.consultarPorClave(clave);
     }
 }
